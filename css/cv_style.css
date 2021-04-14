@@ -1,9 +1,8 @@
 body {
-    background: radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .15) 30%, rgba(255, 255, 255, .3) 32%, rgba(255, 255, 255, 0) 33%) 0 0, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .1) 11%, rgba(255, 255, 255, .3) 13%, rgba(255, 255, 255, 0) 14%) 0 0, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .2) 17%, rgba(255, 255, 255, .43) 19%, rgba(255, 255, 255, 0) 20%) 0 110px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .2) 11%, rgba(255, 255, 255, .4) 13%, rgba(255, 255, 255, 0) 14%) -130px -170px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .2) 11%, rgba(255, 255, 255, .4) 13%, rgba(255, 255, 255, 0) 14%) 130px 370px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .1) 11%, rgba(255, 255, 255, .2) 13%, rgba(255, 255, 255, 0) 14%) 0 0, linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #b13e12 40%, #e27412 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #006782 90%, #0b1284 100%);
-    /* linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%); */
-    background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
-    background-color: #840b2a;
-    /* https://projects.verou.me/css3patterns/#rainbow-bokeh */
+    background-color: silver;
+    background-image: radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent), radial-gradient(circle at 0 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent), radial-gradient(circle at 50% 100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent), radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent), radial-gradient(circle at 0 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+    background-size: 100px 50px;
+    /* https://projects.verou.me/css3patterns/ */
     /* background-color: lightblue; */
     /* background-color: rgba(229, 229, 247, 0);
             background: linear-gradient(135deg, #a1a5fb55 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(225deg, #a1a5fb 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(315deg, #a1a5fb55 25%, transparent 25%) 0px 0/ 40px 40px, linear-gradient(45deg, #a1a5fb 25%, #e5e5f7 25%) 0px 0/ 40px 40px; */
@@ -38,7 +37,7 @@ main {
 
 #avatar {
     width: 12em;
-    border-radius: 7%;
+    border-radius: 50%;
     border: 3px solid black;
 }
 
